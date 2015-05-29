@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="180.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.vista.ServerOverviewController">
+   <children>
+      <Text layoutX="14.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El servidor esta:">
+         <font>
+            <Font name="Euphemia" size="24.0" />
+         </font>
+      </Text>
+      <Label fx:id="estado" layoutX="162.0" layoutY="67.0" text="Estado">
+         <font>
+            <Font name="Euphemia" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="73.0" layoutY="121.0" mnemonicParsing="false" onAction="#btnEncender" prefHeight="40.0" prefWidth="89.0" text="Encender">
+         <font>
+            <Font name="Euphemia" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="238.0" layoutY="121.0" mnemonicParsing="false" onAction="#btnApagar" prefHeight="40.0" prefWidth="89.0" text="Apagar">
+         <font>
+            <Font name="Euphemia" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
